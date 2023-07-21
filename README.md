@@ -1,0 +1,3 @@
+I got a little bit obsessed for a while with the fourth section of Jim Sanborn's Kryptos sculpture, and from time to time will poke around with some basic cryptanalytical attacks on it. Unfortunately, this is all pretty much a mish-mash of unorganized pieces, although that's honestly by design - like the Collatz conjecture, it's fun to play around with from time to time, but if I were to organize everything here, then in meme-virus terms it'd be like that Soviet scientist who accidentally slammed a syringe of Marburg into their thumb.
+
+I still might get around to it at some point, though.

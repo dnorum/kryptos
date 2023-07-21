@@ -1,0 +1,173 @@
+---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+---------------------RDUMRIYWOYNKY-----------------------------ELYOIECBAQK-----------------------
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+k1:	KOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITE
+c1:	---------------------EFXNWJOTNPVDI-----------------------------BJNSNTGLDRI-----------------------
+k2:	---------------------ROPPWTXWKDTVL-----------------------------EFDJEKOBYYE-----------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+k1:	ORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEORDINATEO
+c1:	---------------------MELCQIJWUIMEO-----------------------------NJYRTFJUJHR-----------------------
+k2:	---------------------QSDGKOGTXXBUR-----------------------------KFRUKMYTVIZ-----------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+k1:	---------------------RIGAOKSWDQBTG-----------------------------EVQQNVGBFFI-----------------------
+c1:	OGMJZJYOMSDUNDOVARFNRFVNEXOARXOIDLCTYVCDRXSEPIPDRACBIUSHIFITWWFNAUEBIVZLUIRXHKTJNQQHIMMDMSEUJMXEF
+k2:	KOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITETKOMITE
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+-6k1:	---------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------------
+c1:	---------------------FEQIKEO-----------------------------------LYSKI-----------------------------
+k2:	---------------------KSAAQCX----------------------------------------------------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
++6k1:	---------------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------
+c1:	---------------------------FEQIKEO-----------------------------------LYSKI-----------------------
+k2:	---------------------------LJZXKUR----------------------------------------------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+-7k1:	--------------EASTNORTHEAST-----------------------------BERLINCLOCK------------------------------
+c1:	---------------------IULEZC------------------------------------ZJDL------------------------------
+k2:	---------------------WVDEUE------------------------------------------------------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
++7k1:	----------------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------
+c1:	----------------------------IULEZC------------------------------------ZJDL------------------------
+k2:	----------------------------FXVIAW----------------------------------------------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
+-8k1:	-------------EASTNORTHEAST-----------------------------BERLINCLOCK-------------------------------
+c1:	---------------------ZMGDW-------------------------------------GQR-------------------------------
+k2:	---------------------GZHFW--------------------------------------------------------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+p:	---------------------EASTNORTHEAST-----------------------------BERLINCLOCK-----------------------
++8k1:	-----------------------------EASTNORTHEAST-----------------------------BERLINCLOCK---------------
+c1:	-----------------------------ZMGDW-------------------------------------GQR-----------------------
+k2:	-----------------------------QUGVC----------------------------------------------------------
+c:	OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+1234561234561234561234561234561234561234561234561234561234561234561234561234561234561234561234561
+---------------------RDUMRIYWOYNKY-----------------------------ELYOIECBAQK-----------------------
+
+1234567123456712345671234567123456712345671234567123456712345671234567123456712345671234567123456
+---------------------RDUMRIYWOYNKY-----------------------------ELYOIECBAQK-----------------------
+1: BERW
+2: ADLO
+3: QUYY
+4: KMNO
+5: IKR
+6: EIY
+7: CY
+
+1234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781
+---------------------RDUMRIYWOYNKY-----------------------------ELYOIECBAQK-----------------------
+1: KLMQ
+2: KRYY
+3: IO
+4: IY
+5: EW
+6: COR
+7: BDY
+8: AENU
+
+
+---------------------RDUMRIYWOYNKY-----------------------------ELYOIECBAQK-----------------------
+
+1) Load ngram tables.
+2) For 1-Ngrams:
+	a) Load first gram.
+	b) Scan over all full overlaps:
+		-) Decrypt overlapping segment.
+		-) If resulting ngram IS in table, record BOTH key ngrams, the
+		position, and the product of their ranks. (Up to...?)
+		-) If resulting ngram ISN'T in table, or above some length, save
+		the total rank of the results. (This gives two outputs.)
+	c) For each result, remove duplicates. (Dual.)
+	d) Sort by product of ranks. (Dual.)
+	e) Print top K and save all to file. (Dual.)
+
+
+R	D	U	M	R	IYWOYNKY
+EJ	EZ	ED	EA	EJ	E
+TW	TS	TL	TH	TW	T
+AQ	AP	AH	AE	AQ	A
+OV	O	OJ	OG	OV	O
+IF	IU	IS	IP	IF	IK
+NB	NL	NY	NZ	NB	N
+SU	ST	SI	SF	SU	S
+RK	RC	RQ	RL	RK	R
+HG	HV	HA	HT	HG	H
+LD	LN	LT	LR	LD	L
+DL	DK	DE	DB	DL	D
+CM	CR	CF	C	CM	C
+
+
+Remove duplicates:
+R	D	U	M	R
+EJ	EZ			EJ
+TW	TS			TW
+AQ	AP		AE	AQ
+OV	O	OJ	OG	OV
+IF	IU		IP	IF
+NB	NL	NY	NZ	NB
+SU		SI	SF	SU
+RK		RQ	RL	RK
+HG	HV	HA	HT	HG
+		LT		
+DL	DK	DE	DB	DL
+CM	CR	CF	C	CM
+
+Remove J, Q, Z, X, and condense:
+R	D	U	M	R
+TW	TS	NY	AE	TW
+OV	AP	SI	OG	OV
+IF	O	HA	IP	IF
+NB	IU	LT	SF	NB
+SU	NL	DE	RL	SU
+RK	HV	CF	HT	RK
+HG	DK		DB	HG
+DL	CR		C	DL
+CM				CM
+
+
+
+Test if a string is composed of all valid words:
+Options:
+	end of word, start of word
+	end of word, word(s)
+	end of word, word(s), start of word
+	word(s), start of word
+
+	word(s)
+		Start with whole word, slowly reduce from end until you find a
+		word. Then start over with rest.
+
+Easy:	end of word
+	start of word
+	middle of word
+
+
+
+TODO:
+Include "middle" of words.
+Construct all "valid" strings of given length. - give score
+- have word, tuple, and letter scores - descending
+Include random misspellings.
+Test against.
+Figure out some metric for evaluating a verified output string.
